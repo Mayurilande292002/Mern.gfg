@@ -1,0 +1,31 @@
+*{
+    background-color:olivedrab;
+    height: 300vh;
+}
+.parent{
+    border: 10px solid black;
+    color: aquamarine;
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+.one{
+    background: antiquewhite;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    /*position: absolute;
+    top: 200px;
+    position: sticky;
+    position: relative;*/
+}
+.two{
+    background: yellowgreen ;
+    height: 100px;
+    width: 100px;
+    left: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+}

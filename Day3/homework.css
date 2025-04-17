@@ -1,0 +1,66 @@
+body {
+    background-color: lightcyan;
+    
+  }
+  
+  .container {
+    background: lightblue;
+    border: 2px solid black;
+    padding: 40px 30px;
+    width: 300px;
+   
+  }
+  
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: progress ;
+    transition: 5s;
+  }
+  button :hover{
+    background-color: rgb(24, 24, 171);
+    color: aliceblue;
+  }
+  .or {
+    margin: 15px 0;
+    font-size: 12px;
+    color: black;
+    transition: 1s;
+  }
+  
+  .facebook {
+    color: #385185;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transition: 1s;
+  }
+
+  .facebook :hover{
+    color: darkgreen;
+  }
+  
+  .forgot {
+    font-size: 12px;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .signup {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  

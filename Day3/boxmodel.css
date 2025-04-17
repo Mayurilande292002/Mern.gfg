@@ -1,0 +1,29 @@
+body{
+    background-color:lightskyblue;
+    transition:2s;
+}
+h1{
+    background-color: darkgrey;
+    color: black;
+    margin: 30px;
+    padding: 15px;
+    border: 10px double darkblue;
+    cursor: progress;
+}
+p{
+    background-color: darkslategrey;
+    color: antiquewhite;
+    margin: 40px;
+    padding: 10px;
+    border: 5px dashed rgb(7, 7, 15);
+    cursor: pointer;
+    transition:5s;
+    border-radius: 20px;
+}
+p:hover{
+font-size: 25px;
+background: lightslategray;
+}
+body:hover{
+    background-color: lightpink; ;
+}

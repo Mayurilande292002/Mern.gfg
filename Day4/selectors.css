@@ -1,0 +1,30 @@
+*{
+    background: lightpink;
+    color: maroon;   
+}
+div p{
+    color: black;
+    background-color: aqua;
+}
+div ~ p{
+    color: blue;
+}
+input [type="text"]{
+ width: 400px;   
+ background: yellow;
+}
+h1::first-letter{
+    color: green;
+    background: lightgreen;
+}
+
+#b::first-line{
+    color: aqua;
+    background-color: navy;
+}
+h1::before{
+content: "😊";/* windows+semicolon*/
+}
+h1::after{
+    content: "😊";/* windows+semicolon*/
+    }

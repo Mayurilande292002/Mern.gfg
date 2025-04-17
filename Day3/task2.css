@@ -1,0 +1,17 @@
+button{
+    background: blue;
+    color: black;
+    transition: 3s;
+    margin: 155px;
+    padding: 10px;
+    border: double darkgrey;
+
+}
+button:hover{
+    background: yellow;
+    color: blue;
+    border: lightseagreen dashed;
+}
+body{
+    background-color: aquamarine;
+}

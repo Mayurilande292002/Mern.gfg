@@ -1,0 +1,13 @@
+*{
+    background: darkgreen;
+}
+div{
+    background-color: aquamarine;
+    color: blue;
+    height: 100px;
+}
+span{
+    background-color: yellowgreen;
+    color: brown;
+    height: 200px;
+}
