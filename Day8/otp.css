@@ -1,0 +1,24 @@
+body{
+    background: lightgrey;
+    color: rgb(70, 68, 68);
+    text-align: center;
+}
+
+#s{
+    color: rgb(70, 68, 68);
+    
+}
+button{
+    background: black;
+    color: yellow;
+    width:150px ;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 1s;
+}
+button:hover{
+    background: white ;
+    color: rgb(70, 68, 68);
+    cursor: pointer;
+}

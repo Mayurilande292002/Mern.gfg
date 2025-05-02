@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color:#333;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    canvas{
+        border-radius:5px;
+        background-color: #ffffff;
+        width: 80%;
+        height: 80%;
+    }
+</style>
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+<script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    
+    canvas.clientWidth = window.innerWidth;
+    //fill rect
+   // ctx.fillStyle ="pink";
+   // ctx.fillRect(20,20,80,30);
+   // ctx.fillStyle ="blue";
+   // ctx.fillRect(120,20,80,30);
+     
+   //stroke rect
+  /*  ctx.lineWidth=1;
+     ctx.strokStyle='red';
+     ctx.strokeRect(120,20,80,30);
+
+     ctx.lineWidth=2;
+     ctx.strokStyle='green';
+     ctx.strokeRect(20,20,80,30);
+     */
+    //clear rect
+   // ctx.clearRect(25,25,70,20)
+
+   /* ctx.font="30px Arial";
+    ctx.fillStyle="purple";
+    ctx.fillText('Hey there', 100, 50)*/
+   
+    ctx.beginPath();
+    ctx.moveTo(200,350);
+    ctx.lineTo(400,350);
+
+    ctx.lineWidth = 5;
+    ctx.strokeStyle = "red";
+    ctx.stroke();
+
+    
+</script>
+</html>

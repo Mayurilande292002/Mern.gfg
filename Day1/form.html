@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="/submituser" method="post" target="_blank">
+        <input type="text" name="email" placeholder="Enter your email"> <br>
+        <input type="password" name="password" placeholder="Enter your password"> <br>
+        <input type="submit" value="login"> <br><br>
+        <hr>
+        <label> What is your name</label> 
+        <select name="userage" size="1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option> 
+        </select> <br> <br>
+        <hr> <br>
+        <textarea name="message" rows="10" cols="50" style="width: 100px; height: 200px; max-width: 200px; max-height: 300px; min-width: 50px; min-height: 50px;"></textarea>
+        <br><hr>
+        <fieldset>
+            <legend>login here</legend>
+             <input type="text" name="email" placeholder="Enter your email" list="myname">
+             <datalist id="myname">
+                <option value="name1">
+                <option value="name1">
+                <option value="name1"> 
+             </datalist> <br>
+            <input type="password" name="password" placeholder="Enter your password"> <br>
+            <input type="submit" value="login"> 
+            </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+legend{
+    color: black;
+    font-size: larger;
+}
+fieldset{
+    background: lightcyan;
+    border: 5px solid salmon;
+}
+input{
+    color: blue;
+    background: lightsteelblue;
+}
+::placeholder{
+    color: black;
+}
