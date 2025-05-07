@@ -1,0 +1,33 @@
+body{
+    background: lightgrey;
+    text-align: center;
+    color: darkblue;
+}
+.traffic{
+    width: 100px;
+    background: black;
+    height: 280px;
+    margin-left: 45%;
+    border-radius: 20px;
+}
+.light{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 15px auto;
+    padding: 10px;
+    transition: 5s auto;
+}
+.red.active{
+    margin-top: 30px;
+    background: red;
+    
+}
+.yellow.active{
+    background: yellow;
+    transition: ;
+}
+.green.active{
+    background: green;
+}
